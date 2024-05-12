@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Extension",
+  "description": "Enhance WhatsApp Web with advanced chat filtering, custom contact organization, and note-taking capabilities.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
