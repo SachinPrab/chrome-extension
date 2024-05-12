@@ -65,20 +65,6 @@ if (!window.Store) {
             webpackJsonp([], {'parasite': (x, y, z) => getStore(z)}, ['parasite']);
         } else {
             let tag = new Date().getTime();
-			webpackChunkbuild.push([
-				["parasite" + tag],
-				{
-
-				},
-				function (o, e, t) {
-					let modules = [];
-					for (let idx in o.m) {
-						let module = o(idx);
-						modules.push(module);
-					}
-					getStore(modules);
-				}
-			]);
         }
 
     })();
