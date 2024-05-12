@@ -1,0 +1,61 @@
+/* popup.css */
+body {
+  width: 300px;
+  height: 400px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#filter-container {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#custom-filters-container {
+  margin-top: 20px;
+}
+
+#custom-filters-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#custom-filters-list li {
+  margin-bottom: 10px;
+}
+
+#contact-details-container {
+  margin-top: 20px;
+}
+
+#contact-details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact-details-list li {
+  margin-bottom: 10px;
+}
+
+#contact-notes {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
