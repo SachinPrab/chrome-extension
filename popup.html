@@ -1,0 +1,35 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhatsApp Web Organizer</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <h1>WhatsApp Web Organizer</h1>
+    <div id="filter-container">
+      <button id="all-chats-btn">All Chats</button>
+      <button id="unread-chats-btn">Unread Chats</button>
+      <button id="awaiting-reply-btn">Awaiting Reply</button>
+      <button id="needs-reply-btn">Needs Reply</button>
+      <button id="custom-filters-btn">Custom Filters</button>
+    </div>
+    <div id="custom-filters-container">
+      <h2>Custom Filters</h2>
+      <ul id="custom-filters-list">
+        <li><input type="text" id="lead-filter" placeholder="Lead"></li>
+        <li><input type="text" id="friends-filter" placeholder="Friends"></li>
+        <li><input type="text" id="business-filter" placeholder="Business"></li>
+      </ul>
+    </div>
+    <div id="contact-details-container">
+      <h2>Contact Details</h2>
+      <ul id="contact-details-list">
+        <li><label>Contact Name:</label> <span id="contact-name"></span></li>
+        <li><label>Contact Number:</label> <span id="contact-number"></span></li>
+        <li><label>Notes:</label> <textarea id="contact-notes"></textarea></li>
+      </ul>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
